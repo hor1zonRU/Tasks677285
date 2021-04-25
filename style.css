@@ -1,0 +1,46 @@
+.task-67, .task-72 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 600px;
+    height: 250px;
+}
+
+.task-72 {
+    margin-top: 40px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-group::last-child {
+    margin-bottom: 0;
+}
+
+.group-1 {
+    width: 500px;
+}
+
+.group-2 {
+    width: 300px;
+}
+
+.group-3 {
+    width: auto;
+    display: block;
+    margin: 25px auto;
+}
+
+p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(40, 19, 133);
+}

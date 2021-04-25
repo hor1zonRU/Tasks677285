@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasks 67-72-85</title>
+</head>
+<body>
+    
+    <section class="task-67">
+        <h2>Задача 67</h2>
+        <div class="input-group group-1">
+            <label for="input_arr">Введите предложение, в котором будем проверять его часть</label>
+            <input type="text" id="input_arr" required>
+        </div>
+        <div class="input-group group-2">
+            <label for="input_text">Введите часть предложения, ранее вами написанного, для проверки.</label>
+            <input type="text" id="input_text" required disabled>
+        </div>
+        <div class="group-3">
+            <button id="btn_check" disabled>Проверить</button>
+        </div>
+        <p id="output_67"></p>
+    </section>
+
+    <section class="task-72">
+        <h2>Задача 72</h2>
+        <div class="input-group group-1">
+            <label for="input_arr_72">Введите несколько чисел, чтобы в сумме было больше 20 или больше</label>
+            <input type="number" id="input_arr_72" required>
+        </div>
+        <div class="input-group group-2">
+            <label for="btn_check_72">Нажмите, чтобы узнать сколько цифр надо сложить, начиная с начала, чтобы получить в сумме больше 10</label>
+            <input class="group-3" type="button" id="btn_check_72" value="Узнать результат" disabled>
+        </div>
+        <p id="output_72"></p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
