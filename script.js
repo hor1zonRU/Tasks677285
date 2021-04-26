@@ -68,7 +68,7 @@ btnCheck72.addEventListener("click", () => {
     for (let i = 0; i < array72.length; i++) {
         sum += array72[i]
         if (sum > 10) {
-            return output72.innerHTML = `${array72.length - 1} числа(-ел) с начала потребуется сложить, чтобы получить больше 10 в сумме`  
+            return output72.innerHTML = `${i + 1} числа(-ел) с начала потребуется сложить, чтобы получить больше 10 в сумме`  
         }
         setTimeout(clearAll, 3000);
     }
